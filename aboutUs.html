@@ -7,11 +7,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" type="text/css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <title>Nucamp: A better way to camp</title>
     </title>
     
@@ -101,12 +103,11 @@
         <div class="row row-content">
             <div class="col">
                 <h3>Community Partners</h3>
-                
-                <div class="accordion">
+                <div id="accordion">
                     <div class="card">
                         <div role="tab" class="card-header">
                             <h4>
-                                <a data-toggle="collapse" data-target="#bootstrap">
+                                <a class="collapsed" data-toggle="collapse" data-target="#bootstrap">
                                     Bootstrap Outfitters <small>Outdoor Gear Specialists</small>
                                 </a>
                             </h4>
@@ -228,10 +229,12 @@
            </div>
         </div>
     </footer>
-    
+    <!-- build:js js/main.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <!--endbuild-->
 
 
 </body>
